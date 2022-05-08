@@ -12,4 +12,3 @@ kế thừa JpaRepository để query dữ liệu
 	không thì hiện lỗi và cần nhập lại, có thì update dữ liệu lên database
         + @GetMapping("/confirmdelete") kiểm tra sản phẩm có tồn tại không, không thì trả về lỗi không tìm thấy sản phẩm, có thì trả về trang delete
         + @GetMapping("/delete") kiểm tra sản phẩm có tồn tại không, không thì trả về lỗi không tìm thấy sản phẩm, có thì xóa dữ liệu khỏi database
-
